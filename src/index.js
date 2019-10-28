@@ -9,7 +9,6 @@ function baidugoogle() {
     jq('#su2').click(function () {
         GM_openInTab(googleUrl + kw.val(), false)
     })
-    console.log(node)
 }
 
 function f() {
