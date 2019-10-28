@@ -12,3 +12,7 @@ function baidugoogle() {
     })
     console.log(node)
 }
+
+function f() {
+    console.log("fff")
+}
