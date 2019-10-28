@@ -1,5 +1,5 @@
 var jq = $.noConflict(true);
-function baidugoogle() {
+function baiduGoogle() {
     var googleUrl = 'https://www.google.com/search?q='
     var kw = jq('#kw');
     // Your code here...
@@ -11,6 +11,3 @@ function baidugoogle() {
     })
 }
 
-function f() {
-    console.log("fff")
-}
