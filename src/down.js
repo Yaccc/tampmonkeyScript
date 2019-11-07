@@ -583,7 +583,8 @@
         'morethan2': '多个文件请点击【显示链接】'
     };
 
-    var secretCode = GM_getValue('secretCode') ? GM_getValue('secretCode') : '498065';
+    var secretCode = GM_getValue('secretCode') ? GM_getValue('secretCode') : '123123';
+    // var secretCode = GM_getValue('secretCode') ? GM_getValue('secretCode') : '498065';
 
     function slog(c1, c2, c3) {
         c1 = c1 ? c1 : '';
