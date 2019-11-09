@@ -14,7 +14,8 @@
 
     $(function () {
         if (window.location.href.indexOf("h5.m.taobao.com/cart/order.html") > 0) {
-            //  GM_openInTab("https://h5.m.taobao.com/cart/order.html?buyNow=false&spm=a220l.110092772.footer.i2&buyParam=45914148703_1_520247365603\"_null_0_null_null_1052107317139_qianggou_null_null_0_null_buyerCondition~0~~dpbUpgrade~0~~cartCreateTime~1573052743000_0_0_null_null_null_null_null_null_null_null_null",true)
+            var randsom= Math.random();
+            GM_openInTab("https://h5.m.taobao.com/cart/order.html?buyNow=false&spm=a220l.110092772.footer.i2&buyParam=45914148703_1_520247365603\"_null_0_null_null_"+randsom+"_qianggou_null_null_0_null_buyerCondition~0~~dpbUpgrade~0~~cartCreateTime~1573052743000_0_0_null_null_null_null_null_null_null_null_null",true)
             setInterval(function () {
                 $('#submitOrder_1 > div.mui-flex.align-center > div.cell.fixed.action > div').click()
                 var submit=$('#submitOrder_1 > div.mui-flex.align-center > div.cell.fixed.action > div')

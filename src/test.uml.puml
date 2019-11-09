@@ -1,0 +1,23 @@
+@startuml
+
+
+start
+
+while (item is null) is (true)
+if (itemdo.isProduct()?) then (yes)
+    :process ;
+else (no)
+    if(itemdo.isVie) then (yes)
+        :process2;
+    elseif (itemdo.isDIM)
+        :process4;
+    elseif (unknowitemdo)
+        :doUnkonw;
+    endif
+endif
+
+endwhile
+
+stop
+
+@enduml
